@@ -1,0 +1,55 @@
+{
+  "name": "react-codepen-prefill",
+  "version": "0.0.0",
+  "description": "React component to create a button/link to prefill codepen.io with supplied code",
+  "main": "lib/index.js",
+  "scripts": {
+    "lib": "babel src/lib -d lib",
+    "lib:watch": "babel src/lib -w -d lib",
+    "lib:lint": "./node_modules/.bin/eslint src/lib/*.jsx --fix --config .eslintrc.json",
+    "docs": "webpack-dev-server",
+    "docs:prod": "webpack -p"
+  },
+  "keywords": [
+    "react",
+    "codepen",
+    "prefill",
+    "fill",
+    "open"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^15.3.0 || ^16.2.0",
+    "react-dom": "^15.3.0 || ^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.37",
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "@babel/preset-react": "^7.0.0-beta.37",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-highlight": "^0.12.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "author": "Ron Ilan <npm@ronilan.com>",
+  "homepage": "https://github.com/ronilan/react-codepen-prefill",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ronilan/react-codepen-prefill.git"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1"
+  }
+}
