@@ -30,7 +30,7 @@ import CodepenPrefill from 'react-codepen-prefill';
 ```
 
 For more examples:
-https://github.com/ronilan/react-codepen-prefill
+https://ronilan.github.io/react-codepen-prefill/
 
 ## Component Props
 
