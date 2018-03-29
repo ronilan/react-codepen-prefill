@@ -84,7 +84,7 @@ body {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/ronilan/react-codepen-prefill/tree/master/examples/src"
+          href="https://github.com/ronilan/react-codepen-prefill/tree/master/src/docs"
         >
           here
         </a>
