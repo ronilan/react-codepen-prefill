@@ -1,6 +1,6 @@
 {
   "name": "react-codepen-prefill",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "React component to create a button/link to prefill codepen.io with supplied code",
   "main": "lib/index.js",
   "scripts": {
