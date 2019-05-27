@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 
 import './Examples.css';
 
-import HelloWorldExample from './HelloWorldExample.jsx';
-import BasicExample from './BasicExample.jsx';
-import StylingExample from './StylingExample.jsx';
-import TargetExample from './TargetExample.jsx';
-import FullExample from './FullExample.jsx';
+import HelloWorldExample from './HelloWorldExample';
+import BasicExample from './BasicExample';
+import StylingExample from './StylingExample';
+import TargetExample from './TargetExample';
+import FullExample from './FullExample';
 
 function Examples() {
   const basic = `<CodepenPrefill 
     js="console.log('hello world')"
-    css="body{color: blue;}"
+    css="body{color: #eee; background: #444;}"
     html="<h1>Hello World</h1>"
 />);`;
 
@@ -20,7 +20,7 @@ function Examples() {
     label="Codepen" 
     className="link" 
     js="console.log('hello world')"
-    css="body{color: blue;}"
+    css="body{color: #eee; background: #444;}"
     html="<h1>Hello World</h1>"
 />);`;
 
@@ -28,17 +28,16 @@ function Examples() {
     label="Button Opens Codepen" 
     className="button" 
     js="console.log('hello world')"
-    css="body{color: blue;}"
+    css="body{color: #eee; background: #444;}"
     html="<h1>Hello World</h1>"
 />);`;
-
 
   const target = `
 <CodepenPrefill 
   label="Open in New Tab"
   target="_blank"
   js="console.log('hello world')"
-  css="body{color: blue;}"
+  css="body{color: #eee; background: #444;}"
   html="<h1>Hello World</h1>"
 />);`;
 
@@ -54,7 +53,7 @@ function Examples() {
   editors="111"
   layout="top"
   js="console.log('hello world')"
-  css="body{color: blue;}"
+  css="body{color: #eee; background: #444;}"
   html="<h1>Hello World</h1>"
 />
 `;

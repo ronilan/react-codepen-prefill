@@ -9,7 +9,7 @@ const HelloWorld = () => (
     title="CodepenPrefill Example"
     description="An example of the CodepenPrefill Component in action."
     js="console.log('hello world')"
-    css="body{color: blue;}"
+    css="body{color: #eee; background: #444;}"
     html="<h1>Hello World</h1>"
     editors="111"
   />
