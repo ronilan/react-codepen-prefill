@@ -19,27 +19,27 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "react": "^15.3.0 || ^16.2.0",
-    "react-dom": "^15.3.0 || ^16.2.0"
+    "react": "^15.3.0 || ^16.8.0",
+    "react-dom": "^15.3.0 || ^16.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0-beta.37",
-    "babel-loader": "^8.0.0-beta.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-strict-mode": "^6.24.1",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-loader": "^2.0.0",
+    "eslint-loader": "^2.1.2",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "html-webpack-plugin": "^3.2.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-highlight": "^0.12.0",
     "style-loader": "^0.19.1",
     "webpack": "^4.32.2",
@@ -53,6 +53,6 @@
     "url": "git@github.com:ronilan/react-codepen-prefill.git"
   },
   "dependencies": {
-    "prop-types": "^15.6.1"
+    "prop-types": "^15.7.2"
   }
 }
