@@ -3,14 +3,13 @@ import PropTypes from 'prop-types';
 
 function CodepenPrefill(props) {
   const {
-    formClass, target, className, label, ...send
+    target, className, label, ...send
   } = props;
 
   return (
     <span style={{ display: 'inline-block' }}>
       <form
         style={{ display: 'inline-block' }}
-        className={formClass}
         action="https://codepen.io/pen/define"
         method="POST"
         target={target}
@@ -67,7 +66,6 @@ CodepenPrefill.defaultProps = {
   label: 'Prefill CodePen',
   target: '',
   className: '',
-  formClass: '',
 };
 
 /* eslint-disable react/no-unused-prop-type */
@@ -96,7 +94,6 @@ CodepenPrefill.propTypes = {
   label: PropTypes.string,
   target: PropTypes.string,
   className: PropTypes.string,
-  formClass: PropTypes.string,
 };
 
 export default CodepenPrefill;
