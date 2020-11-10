@@ -16,7 +16,7 @@ function StylingExample(props) {
           </Highlight>
         </code>
       </pre>
-          This link opens
+      This link opens
       {' '}
       <CodepenPrefill
         label="Codepen"
@@ -25,7 +25,7 @@ function StylingExample(props) {
         css="body{color: #eee; background: #444;}"
         html="<h1>Hello World</h1>"
       />
-.
+      .
       <h3>Button</h3>
       <pre>
         <code>
