@@ -29,7 +29,7 @@
     "@babel/preset-react": "^7.12.5",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-strict-mode": "^6.24.1",
-    "css-loader": "^2.1.1",
+    "css-loader": "^5.2.4",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-airbnb-base": "^12.1.0",
