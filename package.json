@@ -7,7 +7,8 @@
     "lib": "babel src/lib -d lib",
     "lib:watch": "babel src/lib -w -d lib",
     "lib:lint": "./node_modules/.bin/eslint src/lib/*.jsx --fix --config .eslintrc.json",
-    "docs": "webpack serve --config webpack.config.js --progress"
+    "docs": "webpack serve --config webpack.config.js --progress",
+    "docs:prod": "webpack --config webpack.config.js --progress"
   },
   "keywords": [
     "react",
