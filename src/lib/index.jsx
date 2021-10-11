@@ -68,7 +68,6 @@ CodepenPrefill.defaultProps = {
   className: '',
 };
 
-/* eslint-disable react/no-unused-prop-type */
 CodepenPrefill.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
