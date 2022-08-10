@@ -39,7 +39,7 @@ module.exports = {
     extensions: [".js", ".jsx"]
   },
   devServer: {
-    contentBase: path.join(__dirname, "docs"),
+    static: path.join(__dirname, "docs"),
     port: 8000
   }
 };
