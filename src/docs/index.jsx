@@ -27,6 +27,7 @@ function Examples() {
   const styling2 = `<CodepenPrefill 
     label="Button Opens Codepen" 
     className="button" 
+    style={{ color: 'pink' }}
     js="console.log('hello world')"
     css="body{color: #eee; background: #444;}"
     html="<h1>Hello World</h1>"

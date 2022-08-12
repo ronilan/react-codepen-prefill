@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function CodepenPrefill(props) {
   const {
-    target, className, label, ...send
+    target, className, style, label, ...send
   } = props;
 
   return (
@@ -23,6 +23,7 @@ function CodepenPrefill(props) {
         <button
           type="submit"
           className={className}
+          style={style}
         >
           {label}
         </button>
@@ -66,6 +67,7 @@ CodepenPrefill.defaultProps = {
   label: 'Prefill CodePen',
   target: '',
   className: '',
+  style: {},
 };
 
 CodepenPrefill.propTypes = {
@@ -93,6 +95,7 @@ CodepenPrefill.propTypes = {
   label: PropTypes.string,
   target: PropTypes.string,
   className: PropTypes.string,
+  style: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
 export default CodepenPrefill;
